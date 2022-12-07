@@ -286,15 +286,15 @@ class XMLSecurityDSig
             case (strpos($xmlns, 'v4.2') !== false):
                 $this->signPolicy = [
                     "name" 		=> "",
-                    "url" 		=> "https://tribunet.hacienda.go.cr/docs/esquemas/2016/v4.2/ResolucionComprobantesElectronicosDGT-R-48-2016_4.2.pdf",
-                    "digest" 	=> "3gQCr0HYSdoxi0ZaRaJ4qs3mHfI=" // Base64_Encode(Hash_File(SHA_1))
+                    "url" 		=> "https://www.batuz.eus/fitxategiak/batuz/ticketbai/sinadura_elektronikoaren_zehaztapenak_especificaciones_de_la_firma_electronica_v1_0.pdf",
+                    "digest" 	=> "Quzn98x3PMbSHwbUzaj5f5KOpiH0u8bvmwbbbNkO9Es=" // Base64_Encode(Hash_File(SHA_1))
                 ];
                 break;
             case (strpos($xmlns, 'v4.3') !== false):
                 $this->signPolicy = [
                     "name" 		=> "",
-                    "url" 		=> "https://www.hacienda.go.cr/ATV/ComprobanteElectronico/docs/esquemas/2016/v4.3/ResolucionComprobantesElectronicosDGT-R-48-2016_4.3.pdf",
-                    "digest" 	=> "3gQCr0HYSdoxi0ZaRaJ4qs3mHfI=" // Base64_Encode(Hash_File(SHA_1))
+                    "url" 		=> "https://www.batuz.eus/fitxategiak/batuz/ticketbai/sinadura_elektronikoaren_zehaztapenak_especificaciones_de_la_firma_electronica_v1_0.pdf",
+                    "digest" 	=> "Quzn98x3PMbSHwbUzaj5f5KOpiH0u8bvmwbbbNkO9Es=" // Base64_Encode(Hash_File(SHA_1))
                 ];
                 break;
             default:
